@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    background: #000;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    border: 1px solid rgb(255, 255, 255);
+    height: 5em;
+    width: 5em;
+    margin: 1em;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    transition: all 0.3s ease-out;
+    border-radius: 50%;
+}
+
+.fab {
+    color: #fff;
+    transition: all 0.3s ease-out;
+    font-size: 2em;
+}
+
+.btn-twitter:hover {
+    border: 1px solid rgb(0, 0, 0);
+    background: #0072b1;
+    cursor: pointer;
+}
+
+.btn-whatsapp:hover {
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(79, 206, 93);
+    cursor: pointer;
+}
+.btn-linkedin:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background: #0072b1;
+    cursor: pointer;
+}
+.btn-instagram:hover{
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(79, 206, 93);
+    cursor: pointer;
+    background: 
+    linear-gradient(
+        45deg , 
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+    );
+}
